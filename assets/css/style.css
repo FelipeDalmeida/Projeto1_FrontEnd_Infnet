@@ -6,7 +6,7 @@ html{
 }
 header{
     position: fixed;
-    background: rgb(255, 101, 0, 0.7);
+    background: rgb(255, 101, 0);
     width: 100%;
     margin:0 auto;
     z-index: 2;
@@ -43,7 +43,7 @@ header{
 }
 
 .header-anchor-principal:hover,.header-anchor-principal:active,.header-anchor-principal:focus{
-    background:rgb(227, 82, 20,0.7)  !important;
+    background:rgb(227, 82, 20)  !important;
     color: rgb(255,255,255) !important;
 }
 
@@ -70,7 +70,7 @@ header{
     
 }
 .header-anchor-secundary:hover,.header-anchor-secundary:active{
-    background-color: rgb(255, 101, 0, 0.7);
+    background-color: rgb(255, 101, 0);
     color:rgb(255,255,255);
 
 }
@@ -87,7 +87,7 @@ header{
 }
 .header-mobile:hover,.header-mobile:active,.header-mobile:focus{
     transform: none;
-    background:rgb(227, 82, 20,0.7)  !important;
+    background:rgb(227, 82, 20)  !important;
     color: rgb(255,255,255) !important;
     box-shadow:none;
 }
@@ -117,7 +117,7 @@ header{
     text-decoration: none;
 }
 .header-anchor-canvas:hover, .header-anchor-canvas:active{
-    background:rgba(163, 49, 0, 0.7);
+    background:rgba(163, 49, 0);
 }
 
 
@@ -126,8 +126,8 @@ header{
 
 main{
     
-    position: absolute;
-    
+    /* position: absolute; */
+    padding:0 !important;
 }
 
 
@@ -159,43 +159,55 @@ main{
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 .title-carousel-banner-animate:nth-child(3){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
 }
 .title-carousel-banner-animate:nth-child(4){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 0.6s;
+    animation-delay: 0.3s;
 }
 .title-carousel-banner-animate:nth-child(5){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 0.8s;
+    animation-delay: 0.4s;
 }
 .title-carousel-banner-animate:nth-child(6){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 .title-carousel-banner-animate:nth-child(7){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 1.2s;
+    animation-delay: 0.6s;
 }
 .title-carousel-banner-animate:nth-child(8){
     animation-name: rgbgamer;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-delay: 1.4s;
+    animation-delay: 0.7s;
+}
+.title-carousel-banner-animate:nth-child(9){
+    animation-name: rgbgamer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+.title-carousel-banner-animate:nth-child(10){
+    animation-name: rgbgamer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.9s;
 }
 
 /* FIM BANNER */
@@ -255,37 +267,63 @@ main h2{
     justify-content: center;
 }
 
-
+.texto-titulo-componentes>.letter{
+    color:rgb(255, 101, 0);
+}
 
 .cartao-conteudo:hover .letter:nth-child(1){
-    animation-name: rgbgamer;
-    animation-duration:0.5s;
+    animation-name: rgbgamer2;
+    animation-duration:1s;
     animation-iteration-count: infinite;
 }
 .cartao-conteudo:hover .letter:nth-child(2){
-    animation-name: rgbgamer;
-    animation-duration:0.5s;
+    animation-name: rgbgamer2;
+    animation-duration:1s;
     animation-iteration-count: infinite;
     animation-delay: 0.1s;
 }
 .cartao-conteudo:hover .letter:nth-child(3){
-    animation-name: rgbgamer;
-    animation-duration:0.5s;
+    animation-name: rgbgamer2;
+    animation-duration:1s;
     animation-iteration-count: infinite;
     animation-delay: 0.2s;
 }
 .cartao-conteudo:hover .letter:nth-child(4){
-    animation-name: rgbgamer;
-    animation-duration:0.5s;
+    animation-name: rgbgamer2;
+    animation-duration:1s;
     animation-iteration-count: infinite;
     animation-delay: 0.3s;
-}
+} 
 .cartao-conteudo:hover .letter:nth-child(5){
-    animation-name: rgbgamer;
-    animation-duration:0.5s;
+    animation-name: rgbgamer2;
+    animation-duration:1s;
     animation-iteration-count: infinite;
-    
-}
+    animation-delay: 0.4s;
+} 
+.cartao-conteudo:hover .letter:nth-child(6){
+    animation-name: rgbgamer2;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+} 
+.cartao-conteudo:hover .letter:nth-child(7){
+    animation-name: rgbgamer2;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+} 
+.cartao-conteudo:hover .letter:nth-child(8){
+    animation-name: rgbgamer2;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+} 
+.cartao-conteudo:hover .letter:nth-child(9){
+    animation-name: rgbgamer2;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+} 
 
 
 /* COMEÇO DO MODAL */
@@ -298,7 +336,7 @@ main h2{
     
 }
 .modal-customizado-header{
-    border-bottom: 2px solid rgb(255, 101, 0);;
+    border-bottom: 2px solid rgb(255, 101, 0);
 }
 .modal-img{
     width: 100%;
@@ -308,13 +346,54 @@ main h2{
 .modal-img img{
     width: 100%;
 }
+/* FIM MODAL */
 
+/* COMEÇO DO FOOTER */
+
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 60px solid rgb(255, 101, 0);
+}
+
+
+footer>nav>div{
+    box-sizing: border-box;
+    
+}
+footer>nav>div>h6{
+    
+    
+}
+footer>nav>div>ul{
+    list-style: none;
+    padding: 0;
+    
+    
+}
+footer>nav>div>ul>li>a,footer>nav>div>ul>li>a:visited{
+    text-decoration: none;
+    color:rgb(255, 101, 0);
+    display: block;
+    width: 150px;
+    transition: linear all 0.3s;
+}
+footer>nav>div>ul>li>a:hover,footer>nav>div>ul>li>a:active{
+    background-color:rgb(227, 82, 20);
+    color:white;
+}
 
 
 @keyframes rgbgamer{
-    0%{color: rgb(255,0,0);}
-    50%{color: rgb(0,255,0);}
-    100%{color:rgb(0,0,255);}
+    0%{color: rgb(255,255,255);}
+    50%{color:rgb(255, 101, 0); transform: scale(1.1);}
+    100%{colot:rgb(227, 82, 20);transform: scale(1.2);}
+}
+
+@keyframes rgbgamer2{
+    0%{color:rgb(255, 101, 0); }
+    
+    100%{color:rgb(227, 82, 20);transform: scale(1.1);}
 }
 
 
@@ -325,9 +404,14 @@ main h2{
     100%{background:linear-gradient(140deg, rgb(0,255,0) 0%, rgb(0,0,255) 50%, rgb(255,0,0) 75%);}
 } */
 
+
+
+
+
 @media screen and (max-width: 575px) {
     
     
+
 }
 
 @media screen and (max-width: 767px) {
