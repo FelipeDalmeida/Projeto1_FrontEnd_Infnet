@@ -224,13 +224,12 @@ main h2{
     font-weight: 700;
     color:rgb(255, 101, 0);
 }
-
+.botao-carousel{
+    width: 10%;
+}
 .cartao-conteudo{
     
-    margin:10px;
-    
- 
-        
+    margin:10px;       
 }
 
 .cartao-conteudo img{
